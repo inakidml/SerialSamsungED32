@@ -1,6 +1,6 @@
 import serial
 import time
-powerOn = "\xAA\x11\xFE\x01\x01\xBA"
+powerOff = "\xAA\x11\xFE\x01\x00\xBA"
 ser = serial.Serial(
                     port='COM1',
                     baudrate = 9600,
