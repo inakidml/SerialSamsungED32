@@ -10,5 +10,5 @@ ser = serial.Serial(
 
 time.sleep(1)            #para que le de tiempo a abrir
 #print(ser.name)         # check which port was really used
-ser.write(powerOff)
+ser.write(powerOn)
 ser.close()              # close port
