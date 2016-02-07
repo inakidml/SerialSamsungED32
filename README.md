@@ -9,4 +9,3 @@ para instalarla en windows
 
 ```
 get-pip.py pyserial
-.```
