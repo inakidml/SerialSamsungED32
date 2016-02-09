@@ -1,8 +1,10 @@
 # Rs232_Samsung
-Control de monitor Samsung vía rs-232
+Scripts en python 2.7 para control de monitor Samsung ED32D vía rs-232
 
+Necesaria librería pySerial
 
 ## referencia pySerial
+
 http://pythonhosted.org/pyserial/pyserial_api.html
 
 para instalarla en windows

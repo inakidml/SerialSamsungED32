@@ -10,8 +10,8 @@ ser = serial.Serial(
 
 time.sleep(1)            #para que le de tiempo a abrir
 for n in sourceHdmi:
-    ser.write(chr(n))
+    ser.write(chr(n))   # lanxzamos el array de uno en uno
 
 
-ser.close()              # close port
 
+ser.close()              # cerramos puerto
