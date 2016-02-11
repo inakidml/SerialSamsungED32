@@ -8,7 +8,7 @@ ser = serial.Serial(
                     stopbits=serial.STOPBITS_ONE,
                     bytesize=serial.EIGHTBITS)  # open serial port
 
-time.sleep(1)            #para que le de tiempo a abrir
+time.sleep(0.1)            #para que le de tiempo a abrir
 for n in sourceHdmi:
     ser.write(chr(n))   # lanxzamos el array de uno en uno
 
